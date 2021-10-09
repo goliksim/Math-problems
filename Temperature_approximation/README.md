@@ -4,9 +4,13 @@
 аппроксимировать результаты измерения на двумерную сетку региона. Использовать
 следующую функцию.
 
+<a href="url"><img src="https://github.com/goliksim/Matlab/blob/master/Temperature_approximation/apprx_img_3.png?raw=true"  text-align="middle" width="250" ></a>
+
 где rL(x,y) – расстояние от точки (x,y) до L метеостанции, TL – значение температуры на L-
 ой станции, C(x,y) – нормировочный множитель, чем ближе точка (x,y) к станции, тем с
 большим весом берется соответствующее слагаемое TL
+
+<img src="https://github.com/goliksim/Matlab/blob/master/Temperature_approximation/apprx_img_4.png?raw=true"  text-align="middle" width="200" >
 
 Отобразить получившееся поле температур на графике. Значения температур и
 координаты станций задать в текстовом файле.
@@ -39,6 +43,8 @@ b = bar3(Z);
 xlabel('x');
 ylabel('y');
 ```
+
+<img src="https://github.com/goliksim/Matlab/blob/master/Temperature_approximation/apprx_img_1.png?raw=true"  text-align="middle" width="300" >
 
 Теперь напишем функцию аппроксимации, которая принимает параметры: имя файла, шаг сетки.
 
@@ -100,5 +106,5 @@ Aproximate("stations.txt",0.125)
 % исходные данные созданы с шагом в 1 в пределах 20 по х и у
 % шаг в 0.25 увеличит итоговый массив в 4 раза (график будет плавнее)
 ```
-
+<img src="https://github.com/goliksim/Matlab/blob/master/Temperature_approximation/apprx_img_2.png?raw=true"  text-align="middle" width="300" >
 На этом все.
