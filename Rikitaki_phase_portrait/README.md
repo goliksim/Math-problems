@@ -24,12 +24,9 @@ z'=1-xy
 Литература:
 
 Нелинейная механика. Часть2. Беркман
-
 Решение систем Д/У: 1. Знакомство с функциями odeXY. MATLABinRussia
 https://www.youtube.com/watch?v=QXXZ0KwZICo&ab_channel=MATLABinRussia
-
 Вячеслав Овдий. Метод фазовой плоскости при анализе динамических систем в MATLAB
 https://a-lab.ee/edu/sites/default/files/Vjatseslav_Ovdi_bak_diplomitoo.pdf
-
 Использование MATLAB. Решение дифференциальных уравнений. Доля П.Г. Харьковский Национальный Университет
 http://geometry.karazin.ua/resources/documents/20140425101544_ca2b78ee.pdf
