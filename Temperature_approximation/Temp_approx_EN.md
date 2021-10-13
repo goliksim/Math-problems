@@ -98,7 +98,7 @@ function Aproximate(name, step)
 end
 ```
 And finally the startup file.<br>
-<b>Filr Task2.m</b>
+<b>File Task2.m</b>
 ```matlab
 % we call the approximation function and pass it the name of the data file and the grid step
 Aproximate("stations.txt",0.125)
