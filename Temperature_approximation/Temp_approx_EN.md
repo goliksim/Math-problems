@@ -49,7 +49,7 @@ ylabel('y');
 
 Now let's write an approximation function that takes parameters: file name, grid step.<br>
 <b>File Approximate.m</b>
-"'matlab
+```matlab
 % % data approximation function on a grid
 % outputs the result as a graph, as well as an array of values to the console
 
